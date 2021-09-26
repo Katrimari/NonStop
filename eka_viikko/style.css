@@ -7,17 +7,21 @@ h1
 {
 color: #FFF;
 padding: 22px 0 0 20px;
+text-align: center;
+font-family: fantasy;
+text-transform: uppercase;
+letter-spacing: 2px;
 }
 nav
 {
-width: 400px;
+width: auto;
 height: 20px;
-background: #D6C136;
-margin-left: 200px;
+background: #a8dadc;
+
 }
 nav ul
 {
-margin: 0 0 0 -10px;
+margin: 0 0 0 40px;
 }
 nav li
 {
@@ -27,8 +31,8 @@ padding: 0 10px;
 }
 section
 {
-width: 400px;
-background: #B5C0EB;
+width: 900px;
+background: #457b9d;
 margin-top; -20px;
 }
 h2
@@ -39,7 +43,7 @@ padding: 10 px 0 0 10px;
 article
 {
 width: 400px;
-background: #B5C0EB;
+background: #457b9d;
 }
 article p
 {
@@ -49,7 +53,7 @@ aside
 {
 width: 200px;
 height: 502px;
-background: #8592ED;
+background: #e63946;
 float: right;
 margin-top: -1px;
 }
@@ -61,7 +65,7 @@ padding: 10px 0 0 10px;
 aside article
 {
 width: 200px;
-background: #8592ED;
+background: #e63946;
 color: #fff;
 }
 footer
