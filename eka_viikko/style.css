@@ -17,7 +17,6 @@ nav
 width: auto;
 height: 20px;
 background: #a8dadc;
-
 }
 nav ul
 {
@@ -33,26 +32,31 @@ section
 {
 width: 1000px;
 background: #457b9d;
-margin-top; -20px;
+margin-top; 20px;
 margin-left: 30%;
-text-align: center;
+
 }
 h2
 {
 color: #000;
-padding: 10 px 0 0 10px;
+padding: 10 0 0 10px;
 font-family: verdana;
+text-align: center;
 }
 article
 {
 width: 1000px;
 background: #457b9d;
-
+}
+img
+{
+padding: 2% 10%;
 }
 article p
 {
 padding: 10px;
 font-family: verdana;
+text-align: center;
 }
 aside
 {
@@ -60,7 +64,7 @@ width: 200px;
 height: 502px;
 background: #e63946;
 float: right;
-margin-top: -1px;
+margin-top: 20px;
 }
 h3
 {
