@@ -12,6 +12,6 @@ function aakkosJar()
 {
   var sana1 = prompt("anna eka sana");
   var sana2 = prompt("anna toka sana");
-  return [sana1, sana2].sort()[0]
+  return [sana1, sana2].sort()
 }
 console.log(aakkosJar());
