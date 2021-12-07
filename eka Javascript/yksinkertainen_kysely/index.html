@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Yksinkertainen JavaScript Tietovisa</title>
+    <link rel="stylesheet" href="css/tyyli.css">
+  
+  </head>
+  <body>
+    <div id="sisalto">
+      <header>
+        <h1>Yksinkertainen Javascript tietovisa</h1>
+        <p>Testaa tietosi <strong>Javascriptin perusteista</strong></p>
+      </header>
+    <section>
+      <div id="tulokset"></div>
+        <form name="kyselyLomake" onsubmit= "lahetavastaukset()">
+          <h3>1.Mihin HTML elementtiin sijoitamme JavaScript koodin?</h3>
+          <input type="radio" name="k1" value="a" id="k1a">a. &lt;js&gt;<br>
+          <input type="radio" name="k1" value="b" id="k1b">b. &lt;script&gt;<br>
+          <input type="radio" name="k1" value="c" id="k1c">c. &lt;body&gt;<br>
+          <input type="radio" name="k1" value="d" id="k1d">d. &lt;link&gt;<br>
+        </form>
+        <form name="kyselyLomake" onsubmit= "lahetavastaukset()">
+          <h3>1.Mitä HTML attribuutttia käytetään viittaamaan ulkoiseen JavaScript tiedostoon?</h3>
+          <input type="radio" name="k1" value="a" id="k1a">a. src<br>
+          <input type="radio" name="k1" value="b" id="k1b">b. link<br>
+          <input type="radio" name="k1" value="c" id="k1c">c. rel<br>
+          <input type="radio" name="k1" value="d" id="k1d">d. href<br>
+        </form>
+        <form name="kyselyLomake" onsubmit= "lahetavastaukset()">
+          <h3>1.Kuinka kirjoitat "Moikka" alert-viestinä?</h3>
+          <input type="radio" name="k1" value="a" id="k1a">a. mgs("Moikka");<br>
+          <input type="radio" name="k1" value="b" id="k1b">b. alertBox("Moikka");<br>
+          <input type="radio" name="k1" value="c" id="k1c">c. document.write("Moikka");<br>
+          <input type="radio" name="k1" value="d" id="k1d">d. alert("Moikka");<br>
+        </form>
+        <form name="kyselyLomake" onsubmit= "lahetavastaukset()">
+          <h3>1.JavaScript on suoraan "Java" ohjelmistokielen sukulainen?</h3>
+          <input type="radio" name="k1" value="a" id="k1a">a. Kyllä<br>
+          <input type="radio" name="k1" value="b" id="k1b">b. Ei<br>
+        </form>
+        <form name="kyselyLomake" onsubmit= "lahetavastaukset()">
+          <h3>1.JavaScript muuttuja pitää alkaa tietyllä merkillä</h3>
+          <input type="radio" name="k1" value="a" id="k1a">a. @<br>
+          <input type="radio" name="k1" value="b" id="k1b">b. $<br>
+          <input type="radio" name="k1" value="c" id="k1c">c. #<br>
+          <input type="radio" name="k1" value="d" id="k1d">d. Ei tarvitse tiettyä merkkiä<br>
+          <br><br>
+          <input type="submit" value="Laheta Vastaukset">
+        </form>
+
+    </section>
+    <footer>
+      <p>Copyright &copy; Jyri Lindroos 2019, kaikki oikeudet pidätetään</p>
+    </footer>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
