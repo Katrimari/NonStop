@@ -25,7 +25,7 @@ function pieninSuurin()
  {
  var kk = document.getElementById("kuukausi").value;
 
-    switch (kk){
+    switch (kk) {
       case "1":
       console.log("Tammikuu");
       break;
@@ -65,7 +65,6 @@ function pieninSuurin()
       default:
       console.log("Et valinnut arvoa välillä 1-12");
     }
-
 }
 
 function henkilo(etunimi, sukunimi, losoite, pnro, ptp, puh, email)
@@ -105,3 +104,36 @@ console.log(Katri);
 console.log(Mira);
 console.log(Kalle);
 console.log(Jussi);
+
+
+var lause = "webmaster";
+function jarjesta(){
+const myArray = lause.split("").sort().join();
+console.log(myArray);
+}
+
+
+
+
+function arvosana(){
+  var nimi = document.getElementById('nimi').value;
+  var koe = document.getElementById('koe').value;
+  if(koe < 50){
+    console.log(nimi + " Hylätty");
+  }
+  else if (koe < 60){
+    console.log(nimi + " T1");
+  }
+  else if(koe < 70){
+    console.log(nimi + " T2");
+  }
+  else if(koe < 80){
+    console.log(nimi + " H3");
+  }
+  else if(koe < 90){
+    console.log(nimi + " H4");
+  }
+  else{
+    console.log(nimi + " K5");
+  }
+}

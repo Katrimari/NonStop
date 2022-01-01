@@ -6,13 +6,20 @@
     <script src="script.js" charset="utf-8"></script>
   </head>
   <body>
-<input type="submit" name="lähetä" value="pienin ja suurin" onclick="return pieninSuurin();"><br><br>
-<input type="submit" name="lähetä" value="parillinen" onclick=" return rillinenRiton();"><br><br>
+<input type="submit" name="lähetä" value="pienin ja suurin" onclick="return pieninSuurin()"><br><br>
+<input type="submit" name="lähetä" value="parillinen" onclick=" return rillinenRiton()"><br><br>
 <input type="text" id="kuukausi">
 <button type="button" name="button"onclick="kuuKaudet()">Muuta kuukauden numero nimeksi</button><br><br>
-<p id="kuukausi"></p>
-  <input type="submit" name="lähetä" value="lähetä" onclick="">
 
+<input type="submit" name="lähetä" value="abc järjestys" onclick="return jarjesta()"><br><br>
+
+<tr>
+  <td>nimi:</td>
+  <td><input type="text" id="nimi" value=""> </td>
+  <td>tulos:</td>
+  <td><input type="text" id="koe" value=""> </td>
+  <button type="button" name="button" onclick="arvosana()"></button>
+</tr>
 
   </body>
 </html>
