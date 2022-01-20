@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="tili.js" charset="utf-8"></script>
+    <title></title>
+  </head>
+  <body>
+    <div id="alue">
+      <form id="pankkiForm">
+        <h1>Pankkitili</h1>
+        <table>
+          <tr>
+            <td><label for="key">Nimi:</label></td>
+            <td><input type="text" id="key" placeholder="Nimi" required autofocus></td>
+          </tr>
+          <tr>
+            <td><label for="tili">Tilinumero:</label></td>
+            <td><input type="text" id="tili" placeholder="Tilinumero" required autofocus></td>
+          </tr>
+          <tr>
+            <td><label for="saldo">Saldo:</label></td>
+            <td><input type="text" id="saldo" placeholder="saldo" required autofocus></td>
+          </tr>
+          <tr>
+            <td><label for="tyyppi">Tyyppi:</label></td>
+            <td><input type="text" id="tyyppi" placeholder="esim. Säästö" required></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button type="submit" onclick="store()">Tallenna tiedot</button></td>
+          </tr>
+        </table>
+      </form>
+      <br>
+      <table>
+        <tr>
+          <td><label for="retrieveKey">Anna nimesi:</label></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><input type="text" id="retrieveKey" required></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td><button id="retrieveButton">Hae arkistosta</button></td>
+        </tr>
+        <tr>
+          <td>    <br></td>
+        </tr>
+          <tr>
+          <td colspan=2><label for="removeKey" >Anna poistettavan tilitiedoston nimi:</label></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="text" id="removeKey" required></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button id="removeButton">Poista tietue</button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button id="clearButton">Poista kaikki tietueet</button></td>
+          </tr>
+      </table>
+    </div>
+    <div id="retrieve"></div>
+  </body>
+</html>
