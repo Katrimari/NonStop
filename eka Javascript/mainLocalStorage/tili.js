@@ -17,8 +17,8 @@ function store(){ // haetaan arvot
 function haekohteet(){ //hakee kohteet localStoragesta
   var nimi = document.getElementById("retrieveKey").value; //hakee käyttäjän nimen
   console.log("luodut tulokset");
-  var tulokset = window.localStorage.getItem(nimi); // hakee nimen local localStoragesta
-  var paragraph = document.createElement("p"); // luodaan paragraph
+  var tulokset = window.localStorage.getItem(nimi); // luodaan tulos muuttuja joka hakee nimen local localStoragesta
+  var paragraph = document.createElement("p"); // luodaan paragraph muuttuja
   var info = document.createTextNode(tulokset); // luodaan tekstitiedosto
   paragraph.appendChild(info); //liitetään tiedosto
   var element = document.getElementById("retrieve");
