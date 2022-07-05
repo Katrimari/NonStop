@@ -1,0 +1,70 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.ekakuva, .tokakuva, .kolmaskuva, .neljaskuva, .viideskuva {
+  position: relative;
+  opacity: 0.70;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.ekakuva {
+  background-image: url("lotus2.jpg");
+  min-height: 80%;
+}
+
+.tokakuva {
+  background-image: url("ranta.jpg");
+  min-height: 500px;
+}
+
+.kolmaskuva {
+  background-image: url("skytrain.jpg");
+  min-height: 500px;
+}
+
+.neljaskuva {
+  background-image: url("pannari.jpg");
+  min-height: 500px;
+}
+
+.viideskuva {
+  background-image: url("thai.jpg");
+  min-height: 80%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #4F4B35;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .ekakuva, .tokakuva, .kolmaskuva, .neljaskuva, .viideskuva {
+    background-attachment: scroll;
+  }
