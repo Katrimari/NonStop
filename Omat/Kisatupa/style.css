@@ -1,0 +1,79 @@
+body {
+  background-color: #1B1B1E;
+  margin: 0% 10%;
+
+}
+header {
+  background-image: url("kossi3.jpg");
+  background-repeat: round;
+  background-position: center;
+  background-color: #14213D;
+  background-size: 40% 100%;
+  padding: 10%;
+  color: #FFFFFF;
+  border: 5px solid #FAA916;
+  border-radius: 8px 8px 0px 0px;
+  text-align: center;
+}
+nav{
+  width: auto;
+  height: 40px;
+  background: #FAA916;
+  padding: 10px;
+
+  border-radius: 0px 0px 8px 8px;
+}
+nav ul{
+  margin: auto;
+}
+nav li{
+  float: left;
+  list-style-type: none;
+  padding: 0 10px;
+}
+a:link, a:visited{
+  background-color: #FAA916;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: green;
+}
+section p{
+
+  background-color: #E5E5E5;
+  /*border: 5px solid #14213D;
+  border-radius: 8px;
+  outline: #FAA916 solid 10px;
+  padding: 10% 2%;
+  text-align: center;*/
+}
+section{
+  padding: 3% 0%;
+  background-color: #E5E5E5;
+  border: 5px solid #14213D;
+  border-radius: 8px;
+  outline: #FAA916 solid 10px;
+  padding: 10% 2%;
+  text-align: center;
+  margin: 2% 0%;
+}
+footer p {
+  color: #FFFFFF;
+  /*background-color: #14213D;
+  border: 5px solid #FAA916;
+  border-radius: 2px;*/
+}
+footer {
+  text-align: center;
+  background-color: #14213D;
+  border: 5px solid #FAA916;
+  border-radius: 2px;
+}
+#uudestaan{
+  margin: 5%;
+}

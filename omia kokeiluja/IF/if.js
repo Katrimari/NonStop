@@ -8,13 +8,13 @@
 timeLeft = prompt("Kuinka monta päivää on kesälomaan?");
 var timeLeft = "";
  if (timeLeft <= 20) {
-   console.log("Kohta pääset kesä lomalle");
+   window.alert("Kohta pääset kesä lomalle");
  } else if (timeLeft <= 50) {
-    console.log("Jaksaa jaksaa");
+    window.alert("Jaksaa jaksaa");
  } else if (timeLeft <= 100) {
-    console.log("Loppukiri häämöttää!");
+    window.alert("Loppukiri häämöttää!");
  } else {
-    console.log("Ei Kommentoitavaa");
+    window.alert("Ei Kommentoitavaa");
  }
 
 
