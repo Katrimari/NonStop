@@ -1,0 +1,89 @@
+nav {
+  width: auto;
+  height: 40px;
+  background: #DAC913;
+  padding: 10px;
+
+}
+nav ul{
+  //margin: auto;
+  display: inline;
+}
+nav li{
+  float: left;
+  list-style-type: none;
+  padding: 0 10px;
+}
+a:link, a:visited{
+  background-color: #FAA916;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: green;
+}
+
+nav p {
+  float: right;
+  font-weight: bold;
+
+  margin-right: 3%;
+}
+#tehoste{
+  color: red;
+}
+body{
+  background: -webkit-linear-gradient(90deg, hsla(55, 84%, 46%, 1) 50%, hsla(0, 0%, 5%, 1) 100%);
+  font-family: 'Prompt', sans-serif;
+}
+
+header {
+  padding: 10%;
+}
+
+header h1 {
+  font-size: 40px;
+  color: #DAC913;
+  font-weight: bolder;
+}
+
+#tausta{
+  background-color: #0C0C0C;
+  margin: 0% 15%;
+  padding: 5%;
+}
+
+#eka {
+  background-color: #DAC913;
+  margin: 2% 5%;
+  display: flex;
+}
+
+#eka p {
+  text-align: center;
+  padding: 1%;
+  font-weight: bold;
+}
+#toka{
+  background-color: black;
+  margin: 2% 5%;
+  display: flex;
+
+}
+#toka p {
+  text-align: center;
+  padding: 1%;
+  color: #DAC913;
+  font-weight: bold;
+}
+
+footer {
+ background-color: black;
+ margin-top: -1%;
+ color: #DAC913;
+ padding: 5%;
+}
